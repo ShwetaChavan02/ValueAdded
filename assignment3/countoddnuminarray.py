@@ -1,9 +1,9 @@
 # Given an array of n elements
 # the task is to return the count of the number of odd numbers in the array.
 
-def count_odd_numbers(n, arr):
-    count = 0
-    for i in range(n):
-        if arr[i] % 2 != 0:
-            count += 1
-    return count
+def isArraySorted(arr):
+    n = len(arr)
+    for i in range(n - 1):
+        if arr[i] > arr[i + 1]:
+            return False
+    return True
