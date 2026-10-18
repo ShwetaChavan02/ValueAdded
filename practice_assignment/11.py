@@ -1,4 +1,4 @@
-#
+# Check if the Number is Armstrong
 # You are given an integer n. 
 # You need to check whether it is an Armstrong number or not. 
 # Return true if it is an Armstrong number, otherwise return false.
