@@ -1,6 +1,6 @@
-# Return the Largest Digit in a Number
+/* Return the Largest Digit in a Number
 # You are given an integer n. 
-# Your task is to return the largest digit present in the number.
+# Your task is to return the largest digit present in the number.*/
 
 function returnLargestDigit(n) {
     let largest = 0;
