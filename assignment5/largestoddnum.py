@@ -5,5 +5,12 @@
 # If no odd number exists, return an empty string "".
 # A substring is a contiguous sequence of characters within a string.
 
-
+class Solution:
+    def largestOddNumber(self, s: str):
+        n = int(s)
+        while n > 0:
+            if n % 2 != 0:
+                return n
+            n //= 10
+        return ""
 
